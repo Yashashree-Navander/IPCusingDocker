@@ -1,4 +1,3 @@
-# IPCusingDocker
 # IPC using Docker Containers
 This is a simple IPC prototype which is designed to demonstrate one to one producer-consumer communication using docker containers.
 
