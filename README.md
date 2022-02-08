@@ -22,8 +22,8 @@ This project is mainly concerned about following three phases:
 Steps to run the container:
 
 1. Base functional requirement should be docker daemon host running on the machine.
-2. Pull the producer container from gadekalp docker hub repository. (docker pull yashashree2001/producer)
-3. Pull the consumer container from gadekalp docker hub repository. (docker pull yashashree2001/consumer)
+2. Pull the producer container from yashashree2001 docker hub repository. (docker pull yashashree2001/producer)
+3. Pull the consumer container from yashashree2001 docker hub repository. (docker pull yashashree2001/consumer)
 4. Create a docker network to make communication between both the containers (docker network create <network_name> )  
       (e.g. docker network create prod_cons) 
 5. First run the producer container (docker run --rm --network=<network name from step 4> --name ipc_server_dns_name yashashree2001/producer)
