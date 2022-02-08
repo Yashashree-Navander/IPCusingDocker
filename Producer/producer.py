@@ -2,7 +2,7 @@ import socket
 import random
 import time
 def producer():
-	i=10  #To send 10 numbers only also please change the condition of while loop.
+	i=10  
 	host = socket.gethostbyname('ipc_server_dns_name')
 	port = 5000
 	prod_socket = socket.socket()
